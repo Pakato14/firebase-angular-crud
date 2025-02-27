@@ -13,13 +13,19 @@ import { RegisterComponent } from './component/register/register.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { environment } from '../environments/environment.development';
 import { FormsModule } from '@angular/forms';
+import { ForgotPasswordComponent } from './component/forgot-password/forgot-password.component';
+import { VarifyEmailComponent } from './component/varify-email/varify-email.component';
+import { FileuploadComponent } from './component/fileupload/fileupload.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    DashboardComponent
+    DashboardComponent,
+    ForgotPasswordComponent,
+    VarifyEmailComponent,
+    FileuploadComponent,
   ],
   imports: [
     BrowserModule,
