@@ -9,6 +9,9 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'register', component: RegisterComponent },
+  // {path: 'varify-email', component : VarifyEmailComponent},
+  // {path: 'forgot-password', component : ForgotPasswordComponent},
+  // {path : 'file-upload', component:FileuploadComponent}
 ];
 
 @NgModule({
